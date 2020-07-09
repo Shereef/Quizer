@@ -64,9 +64,9 @@ namespace Quizer
                 return;
             }
 
-            if (answers == null || answers.Length == 0)
+            if (answers == null || answers.Length < 4)
             {
-                Console.WriteLine("Please provide a list of answers in answers.txt file 1 answer per line!");
+                Console.WriteLine("Please provide a list of answers in answers.txt file 1 answer per line with a minimum of 4 answers");
                 Console.WriteLine("make sure the correct answer is on the same line as the question");
                 Console.ReadKey();
                 return;
