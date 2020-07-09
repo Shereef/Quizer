@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizer", "Quizer.csproj", "{7258E461-73FC-4B65-826A-685E9BC18A2A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizer", "Quizer.csproj", "{9680DF75-5DCA-4DB6-A367-E85C638D328F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7258E461-73FC-4B65-826A-685E9BC18A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7258E461-73FC-4B65-826A-685E9BC18A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7258E461-73FC-4B65-826A-685E9BC18A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7258E461-73FC-4B65-826A-685E9BC18A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9680DF75-5DCA-4DB6-A367-E85C638D328F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9680DF75-5DCA-4DB6-A367-E85C638D328F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9680DF75-5DCA-4DB6-A367-E85C638D328F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9680DF75-5DCA-4DB6-A367-E85C638D328F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {250CC377-9B7C-4935-A116-46DD93A1BA72}
+		SolutionGuid = {434D75B1-28A4-4E2F-9CE5-B2B46C096CAD}
 	EndGlobalSection
 EndGlobal
