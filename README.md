@@ -1,5 +1,7 @@
 # Quizer
 ![.NET Core](https://github.com/Shereef/Quizer/workflows/.NET%20Core/badge.svg)
+
+
 Console app to quiz you with a set of questions and answers 
 
 You provide:
