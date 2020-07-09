@@ -23,3 +23,13 @@ jobs:
       run: dotnet build --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
+    - name: publish
+      run: dotnet publish -c Release -r win10-x64
+      
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v1
+      with:
+        name: EXE Package
+        path: bin/Release/publish/Quizer.exe
+      
+      
