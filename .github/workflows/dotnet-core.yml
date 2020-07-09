@@ -34,6 +34,6 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: EXE Package
-        path: bin/Release/publish/Quizer.exe
+        path: /home/runner/work/Quizer/Quizer/bin/Release/netcoreapp3.1/win10-x64/publish//Quizer.exe
       
       
