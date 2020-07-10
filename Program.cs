@@ -29,7 +29,7 @@ namespace Quizer
                     chosenFakeAnswers = new List<string>();
                     for (int i = 0; i < 3; i++)
                     {
-                        IEnumerable<string> filteredPossibleAnswers = fakeAnswers.Where(a => !chosenFakeAnswers.Contains(a));
+                        IEnumerable<string> filteredPossibleAnswers = fakeAnswers.Where(a => !chosenFakeAnswers.ConvertAll(a=>a.Replace('.', '').Trim().ToLowerCase()).Contains(a.ConvertAll(a=>a.Replace('.', '').Trim().ToLowerCase())));
                         string item = filteredPossibleAnswers.ToList()[rnd.Next(filteredPossibleAnswers.Count())];
                         fakeAnswers.Remove(item);
                         chosenFakeAnswers.Add(item);
